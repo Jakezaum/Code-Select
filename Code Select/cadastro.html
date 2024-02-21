@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style/cadastro.css">
+    <title>Cadastre-se</title>
+</head>
+
+<main>
+    <body>
+        <div class="container">
+                <nav>
+                    <div class="logo">
+                        <a href='/'> <img src="Imagens/Logo.png" height="100" width="100"> </a>
+                    </div>
+                    <ul>
+                        <li><a href='/'> <strong> Home </strong> </a></li>
+                        <li><a href="guia.html"> <strong> Guia do Estudante </strong></a></li>
+                        <li><a href="sobre.html"> <strong> Quem Somos </strong> </a></li>
+                        <li><a href="login.html"> <button> <strong> Login </strong> </button> </a></li>
+                        <br><br>
+                    </ul>
+                </nav>
+
+        <div class="Cadastrar">
+            <h1>Cadastre-se</h1>
+            <input type="text" placeholder="Nome" id="nome">
+            <br><br>
+            <input type="text" placeholder="Email" id="email">
+            <br><br>
+            <input type="password" placeholder="Senha" id="senha">
+            <br><br>
+            <input type="password" placeholder="Confirme a senha" id="confirme">
+            <br><br>
+            <p> <input type="submit" onclick="cadastrar(); return false"> </p>
+            <br><br>
+            <p>Para se cadastrar digite "admin" para ambos.</p>
+            <br><br>
+            <p> <a href="login.html"> <strong> Já tem conta? Faça login </strong> </a> </p>
+        </div>   
+   </main>
+
+   <script>
+    function cadastrar(){var a=document.getElementById("nome").value,b=document.getElementById("email").value,c=document.getElementById("senha").value,d=document.getElementById("confirme").value;"admin"==a&&"admin"==b&&"admin"==c&&"admin"==d?(alert("Sucesso"),location.href="index.html"):alert("Usu\xE1rio ou senha incorretos")}
+    </script>
+
+</body>
+</html>

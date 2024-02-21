@@ -1,0 +1,104 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap";* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif
+}
+
+body {
+    background-color: white;
+    min-height: 100%;
+}
+
+main {
+    display: content;
+    align-items: center;
+    justify-content: space-between
+}
+
+.front-text h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: rgb(233, 103, 103);
+    align-items: center
+}
+
+.front-text h2 {
+    color: rgb(233, 103, 103);
+    align-items: first baseline;
+    justify-content: space-between;
+    text-decoration: none
+}
+
+.front-text p {
+    color: #000;
+    font-weight: 400;
+    align-items: first baseline;
+    justify-content: space-between;
+    text-decoration: none;
+    text-align: justify;
+    font-size: 18px;
+    margin-left: 60px;
+    margin-right: 60px
+}
+
+.front-text a {
+    color: #193C6C;
+    font-weight: 400;
+    align-items: first baseline;
+    justify-content: space-between;
+    text-decoration: none
+}
+
+.back-text h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #193C6C;
+    align-items: center
+}
+
+.back-text h2 {
+    color: rgb(233, 103, 103);
+    align-items: first baseline;
+    justify-content: space-between;
+    text-decoration: none
+}
+
+.back-text p {
+    color: #000;
+    font-weight: 400;
+    align-items: first baseline;
+    justify-content: space-between;
+    text-decoration: none;
+    text-align: justify;
+    font-size: 18px;
+    margin-left: 60px;
+    margin-right: 60px
+}
+
+.back-text a {
+    color: #193C6C;
+    font-weight: 400;
+    align-items: first baseline;
+    justify-content: space-between;
+    text-decoration: none
+}
+
+.img-central {
+    width: 28%;
+    display: block;
+    margin: auto;
+    padding-right: 140px
+}
+
+.img-central img {
+    width: 100%
+}
+
+.footer {
+    background-color: rgb(187, 54, 54);
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: center
+}
